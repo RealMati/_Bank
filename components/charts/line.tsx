@@ -121,17 +121,14 @@ const GradientStackedAreaChart = () => {
   }, []);
 
   return (
-    <div className="flex flex-col gap-3 p-4 rounded-lg w-full">
-      <h2 className="text-lg font-semibold text-gray-700">Weekly Activity</h2>
-      <div className="bg-white rounded-2xl w-full">
-        <EChartsReactCore
-          echarts={echarts}
-          option={chartOptions}
-          notMerge={true}
-          lazyUpdate={true}
-          // style={{ height: "300px", width: "100%" }}
-        />
-      </div>
+    <div className="w-full">
+      <EChartsReactCore
+        echarts={echarts}
+        option={chartOptions}
+        notMerge={true}
+        lazyUpdate={true}
+        // style={{ height: "300px", width: "100%" }}
+      />
     </div>
   );
 };

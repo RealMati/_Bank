@@ -16,13 +16,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        <div className="flex">
-          <div className="w-[19%] pl-3">
+    <html lang="en" className="h-full">
+      <body className={inter.className + " h-full"}>
+        <div className="flex h-full">
+          <div className="w-[17%] pl-3 ">
             <Sidebar />
           </div>
-          <div className="w-full">{children}</div>
+          <div className="w-[83%]">{children}</div>
         </div>
       </body>
     </html>

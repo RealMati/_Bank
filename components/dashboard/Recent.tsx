@@ -1,33 +1,28 @@
 import React from "react";
 import Image from "next/image";
+import RecentItem from "./RecentItem";
 
 const Recent = () => {
   return (
-    <div className="bg-white rounded-2xl p-5 gap-3">
-      <div className="flex">
-        <Image src={"/credit.png"} alt="credit" width={27} height={27} />
-        <div>
-          <p>Deposit from my</p>
-          <p>28 January 2024</p>
-        </div>
-        <p className="text-red-500">-$850</p>
-      </div>
-      <div className="flex">
-        <Image src={"/paypal.png"} alt="paypal" width={27} height={27} />
-        <div>
-          <p>Deposit paypal</p>
-          <p>18 February 2024</p>
-        </div>
-        <p className="text-green-500">+$2500</p>
-      </div>
-      <div className="flex">
-        <Image src={"/cash.png"} alt="cash" width={27} height={27} />
-        <div>
-          <p>Jemi Wilson</p>
-          <p>19 February 2024</p>
-        </div>
-        <p className="text-green-500">+5400</p>
-      </div>
+    <div className=" bg-white rounded-2xl px-4 py-3 w-full flex flex-col gap-1">
+      <RecentItem
+        icon="/credit.png"
+        statement="Deposit from my"
+        date="28 January 2024"
+        amount="-$850"
+      />
+      <RecentItem
+        icon="/paypal.png"
+        statement="Deposit paypal"
+        date="18 January 2024"
+        amount="+$2500"
+      />
+      <RecentItem
+        icon="/cash.png"
+        statement="Jemi Wilson"
+        date="19 February 2024"
+        amount="+$5400"
+      />
     </div>
   );
 };

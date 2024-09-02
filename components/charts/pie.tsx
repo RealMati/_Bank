@@ -25,8 +25,8 @@ type ExpenseDataType = { value: number; name: string; selected: boolean }[];
 const expenseData: ExpenseDataType = [
   { value: 26, name: "Service", selected: true },
   { value: 23, name: "Others", selected: true },
-  { value: 26, name: "Shopping", selected: true },
-  { value: 25, name: "Transfer", selected: true },
+  { value: 27, name: "Shopping", selected: true },
+  { value: 24, name: "Transfer", selected: true },
 ];
 
 const PieStat = () => {
@@ -87,20 +87,13 @@ const PieStat = () => {
   }, [palette]);
 
   return (
-    <div className="flex flex-col gap-3 p-4 rounded-lg w-full">
-      <h2 className="text-lg font-semibold text-center text-gray-700">
-        Expense Statistics
-      </h2>
-      <div className="bg-white p-5 rounded-2xl">
-        <EChartsReactCore
-          echarts={echarts}
-          option={chartOptions}
-          notMerge={true}
-          lazyUpdate={true}
-          // style={{ height: "400px", width: "100%" }}
-        />
-      </div>
-    </div>
+    <EChartsReactCore
+      echarts={echarts}
+      option={chartOptions}
+      notMerge={true}
+      lazyUpdate={true}
+      // style={{ height: "400px", width: "100%" }}
+    />
   );
 };
 

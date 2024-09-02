@@ -77,7 +77,7 @@ const BarStat: React.FC = () => {
         data: xAxisData,
       },
       yAxis: {
-        axisLabel: { color: theme.palette.primary.light, fontSize: 20 },
+        axisLabel: { color: theme.palette.primary.light, fontSize: 15 },
         axisLine: { show: false },
         axisTick: { show: false },
         splitLine: {
@@ -97,7 +97,7 @@ const BarStat: React.FC = () => {
       tooltip: {
         trigger: "item",
         formatter: "{b}: ${c}",
-        // backgroundColor: theme.palette.neutral.dark,
+        backgroundColor: theme.palette.primary.main,
         textStyle: { color: theme.palette.secondary.contrastText },
         borderWidth: 0,
         padding: 10,
@@ -149,18 +149,15 @@ const BarStat: React.FC = () => {
   }, [theme, upMd, upSm]);
 
   return (
-    <div className="flex flex-col gap-3 p-4 rounded-lg w-full">
-      <h2 className="text-lg font-semibold text-gray-700">Weekly Activity</h2>
-      <div className="bg-white p-5 rounded-2xl">
-        <EChartsReactCore
-          ref={chartRef}
-          echarts={echarts}
-          option={chartOptions}
-          notMerge={true}
-          lazyUpdate={true}
-          // style={{ height: "400px", width: "100%" }}
-        />
-      </div>
+    <div className="p-2">
+      <EChartsReactCore
+        ref={chartRef}
+        echarts={echarts}
+        option={chartOptions}
+        notMerge={true}
+        lazyUpdate={true}
+        // style={{ height: "400px", width: "100%" }}
+      />
     </div>
   );
 };
