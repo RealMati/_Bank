@@ -1,12 +1,10 @@
+import Content from "@/components/Content";
 import NavBar from "@/components/NavBar";
 import React from "react";
+import CreditsContent from "./CreditsContent";
 
 const page = () => {
-  return (
-    <div>
-      <NavBar title="Overview" />
-    </div>
-  );
+  return <Content content={<CreditsContent />} title="Credits" />;
 };
 
 export default page;

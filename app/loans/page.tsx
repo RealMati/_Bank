@@ -1,12 +1,10 @@
+import Content from "@/components/Content";
 import NavBar from "@/components/NavBar";
 import React from "react";
+import LoansContent from "./LoansContent";
 
 const page = () => {
-  return (
-    <div>
-      <NavBar title="Overview" />
-    </div>
-  );
+  return <Content content={<LoansContent />} title="Loans" />;
 };
 
 export default page;

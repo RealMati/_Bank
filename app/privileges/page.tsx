@@ -1,12 +1,9 @@
-import NavBar from "@/components/NavBar";
+import Content from "@/components/Content";
 import React from "react";
+import PrivilegesContent from "./PrivilegesContent";
 
 const page = () => {
-  return (
-    <div>
-      <NavBar title="Overview" />
-    </div>
-  );
+  return <Content content={<PrivilegesContent />} title="Privileges" />;
 };
 
 export default page;

@@ -5,6 +5,8 @@ const MasterCard = ({ mode }: { mode: string }) => {
   const gradientClass =
     mode === "light"
       ? "bg-gradient-to-b from-[#ffffff] to-[#ffffff]"
+      : mode === "sky"
+      ? "bg-gradient-to-br from-[#2D60FF] to-[#539BFF]"
       : "bg-gradient-to-b from-[#4C49ED] to-[#0A06F4]";
 
   const textColor = mode === "light" ? "text-[#1e293b]" : "text-white";
@@ -14,7 +16,7 @@ const MasterCard = ({ mode }: { mode: string }) => {
 
   return (
     <div
-      className={`text-white rounded-2xl w-full ${gradientClass} ${textColor} border-[1px] border-slate-200`}
+      className={` rounded-2xl w-full ${gradientClass} bg-grad ${textColor} border-[1px] border-slate-200`}
     >
       <div className="flex justify-between px-5 pt-4 pb-2">
         <div>
@@ -27,12 +29,12 @@ const MasterCard = ({ mode }: { mode: string }) => {
       </div>
       <div className="flex justify-between px-5 py-2 pb-3 pr-7">
         <div>
-          <p className={`font-thin  text-[10px]`}>CARD HOLDER</p>
+          <p className={`font-extralight  text-[11px]`}>CARD HOLDER</p>
           <p className="font-semibold text-sm lg:text-sm ">Eddy Cusuma</p>
         </div>
 
         <div>
-          <p className={`font-thin  text-[10px]`}>VALID THRU</p>
+          <p className={`font-extralight  text-[11px]`}>VALID THRU</p>
           <p className="font-semibold text-lg ">12/26</p>
         </div>
       </div>

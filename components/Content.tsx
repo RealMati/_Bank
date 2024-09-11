@@ -9,9 +9,11 @@ const Content = ({
   title: string;
 }) => {
   return (
-    <div className="flex flex-col items-center h-full">
+    <div className="flex flex-col items-center h-full min-h-screen w-full">
       <NavBar title={title} />
-      <div className="px-8 py-6 bg-slate-100 w-full h-full">{content}</div>
+      <div className="px-7 py-4 bg-slate-100 w-full min-h-screen h-fit">
+        {content}
+      </div>
     </div>
   );
 };

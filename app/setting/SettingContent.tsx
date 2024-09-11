@@ -28,7 +28,7 @@ const SettingContent = () => {
 
   return (
     <div className="rounded-xl bg-white px-9 py-6 flex flex-col gap-5">
-      <div className="flex gap-16 text-[#718EBF]">
+      <div className="flex gap-16 text-[#718EBF]  border-b-[1px] border-slate-100">
         <div
           className={`hover:text-[#4c4cce] ${getActiveStyle(
             "Edit"

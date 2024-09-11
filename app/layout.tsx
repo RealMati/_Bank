@@ -19,10 +19,10 @@ export default function RootLayout({
     <html lang="en" className="h-full">
       <body className={inter.className + " h-full"}>
         <div className="flex h-full">
-          <div className="w-[17%] pl-3 ">
+          <div className="w-[17%] ">
             <Sidebar />
           </div>
-          <div className="w-[83%]">{children}</div>
+          <div className="w-[83%] h-fit min-h-screen">{children}</div>
         </div>
       </body>
     </html>
