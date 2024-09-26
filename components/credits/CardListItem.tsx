@@ -14,7 +14,7 @@ const CardListItem = ({
   name: string;
 }) => {
   return (
-    <div className="flex gap-2 justify-between bg-white p-3">
+    <div className="flex gap-2 justify-between bg-white p-3 hover:shadow-md rounded-xl cursor-pointer">
       <div className="flex gap-2 items-center">
         <div className="size-11 bg-gray-200 rounded-md flex items-center justify-center overflow-hidden">
           <img src={icon} alt={"bank"} />

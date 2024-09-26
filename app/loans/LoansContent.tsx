@@ -6,19 +6,15 @@ const LoansContent = () => {
   return (
     <div className="text-[#232323] px-8 py-6 bg-slate-100 min-h-[750px] flex flex-col gap-3 w-full">
       <div className="flex gap-4 justify-around">
-        <LoanBar
-          image="/life-insurance.png"
-          title="Personal Loans"
-          subtitle="$50,000"
-        />
+        <LoanBar image="/user.png" title="Personal Loans" subtitle="$50,000" />
         <LoanBar image="/bag.png" title="Corporate Loans" subtitle="$100,000" />
         <LoanBar
-          image="/shield.png"
+          image="/increase.png"
           title="Business Loans"
           subtitle="$500,000"
         />
         <LoanBar
-          image="/shield.png"
+          image="/tool.png"
           title="Custom Loans"
           subtitle="Choose Money"
         />

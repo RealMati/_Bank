@@ -6,8 +6,8 @@ const Service = ({ image, title }: { image: string; title: string }) => {
     <div className="flex items-center justify-between rounded-xl p-3 px-4 bg-white hover:shadow-md">
       <div className="bg-white">
         <div className="flex gap-6">
-          <div className="bg-[#E7EDFF] rounded-2xl flex items-center p-3">
-            <Image src={image} width={26} height={35} alt="" />
+          <div className="flex justify-center items-center  bg-[#E7EDFF] rounded-xl size-10 overflow-hidden">
+            <Image src={image} width={40} height={40} alt={title} />
           </div>
           <div>
             <p className="font-semibold">{title}</p>

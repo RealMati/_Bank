@@ -7,7 +7,7 @@ const ServiceContent = () => {
     <div className="text-[#232323] px-8 py-6 bg-slate-100 min-h-[750px] flex flex-col gap-4 w-full">
       <div className="flex gap-4 justify-around">
         <TagBar
-          image="/life-insurance.png"
+          image="/user.png"
           title="Life Insurance"
           subtitle="Unlimited protection"
         />
@@ -17,7 +17,7 @@ const ServiceContent = () => {
           subtitle="Buy. Think. Grow."
         />
         <TagBar
-          image="/shield.png"
+          image="/tool.png"
           title="Safety"
           subtitle="We are your allies"
         />
@@ -27,12 +27,12 @@ const ServiceContent = () => {
           Bank Services List
         </h1>
         <div className="flex flex-col gap-4">
-          <Service image="/loan.svg" title="Business loans" />
-          <Service image="/Group.svg" title="Checking accounts" />
-          <Service image="/Group1.svg" title="Saving accounts" />
-          <Service image="/user.svg" title="Debit and credit cards" />
-          <Service image="/shield.png" title="Life Insurance" />
-          <Service image="/loan.svg" title="Business loans" />
+          <Service image="/inv/cashbag.png" title="Business loans" />
+          <Service image="/bag.png" title="Checking accounts" />
+          <Service image="/increase.png" title="Saving accounts" />
+          <Service image="/user.png" title="Debit and credit cards" />
+          <Service image="/cash.png" title="Business loans" />
+          <Service image="/user.png" title="Life Insurance" />
         </div>
       </div>
     </div>

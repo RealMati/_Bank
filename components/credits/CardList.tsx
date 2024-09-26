@@ -3,7 +3,7 @@ import CardListItem from "./CardListItem";
 
 const CardList = () => {
   return (
-    <div className="flex flex-col gap-3">
+    <div className="flex flex-col gap-3 p-1">
       <CardListItem
         icon="/creditBlue.png"
         name="William"

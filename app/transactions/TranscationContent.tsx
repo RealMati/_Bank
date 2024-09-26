@@ -1,3 +1,4 @@
+import ExpenseChart from "@/components/investment/ExpenseChart";
 import MasterCard from "@/components/MasterCard";
 import Section from "@/components/Section";
 import TransactionData from "@/components/transcactions/TransactionData";
@@ -21,7 +22,7 @@ const TranscationContent = () => {
         </div>
         <div className="w-[35%] flex flex-col gap-2">
           <h1 className="text-lg font-semibold text-gray-700">My Expense</h1>
-          {/* < /> */}
+          <ExpenseChart />
         </div>
       </div>
       <Section title="Recent Transactions" content={<TransactionData />} />
