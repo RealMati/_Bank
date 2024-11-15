@@ -4,17 +4,17 @@
 ##Preview
 
 ![alt text](_Bank%20images/1.png)
-![alt text](https://github.com/RealMati/_Bank/tree/main/_Bank%20images/2.png)
-![alt text](https://github.com/RealMati/_Bank/tree/main/_Bank%20images/3.png)
-![alt text](https://github.com/RealMati/_Bank/tree/main/_Bank%20images/4.png)
-![alt text](https://github.com/RealMati/_Bank/tree/main/_Bank%20images/5.png)
-![alt text](https://github.com/RealMati/_Bank/tree/main/_Bank%20images/6.png)
-![alt text](https://github.com/RealMati/_Bank/tree/main/_Bank%20images/7.png)
-![alt text](https://github.com/RealMati/_Bank/tree/main/_Bank%20images/8.png)
-![alt text](https://github.com/RealMati/_Bank/tree/main/_Bank%20images/9.png)
+![alt text](_Bank%20images/2.png)
+![alt text](_Bank%20images/3.png)
+![alt text](_Bank%20images/4.png)
+![alt text](_Bank%20images/5.png)
+![alt text](_Bank%20images/6.png)
+![alt text](_Bank%20images/7.png)
+![alt text](_Bank%20images/8.png)
+![alt text](_Bank%20images/9.png)
 
 #Demo
-![alt text](https://github.com/RealMati/_Bank/tree/main/_Bank%20images/vid.webm)
+![alt text](_Bank%20images/vid.webm)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
