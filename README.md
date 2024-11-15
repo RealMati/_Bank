@@ -14,7 +14,7 @@
 ![alt text](_Bank%20images/9.png)
 
 #Demo
-![alt text](_Bank%20images/vid.webm)
+<video src="_Bank%20images/vid.webm" controls width="600"></video>
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
