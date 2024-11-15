@@ -1,3 +1,10 @@
+#_Bank
+###A banking solution where everything is made easy
+
+##Preview
+
+![alt text](_BankDash\ images/1.png)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
