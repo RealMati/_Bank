@@ -1,7 +1,7 @@
-#_Bank
-###A banking solution where everything is made easy
+# _Bank
+### A banking solution where everything is made easy
 
-##Preview
+## Preview
 
 ![alt text](_Bank%20images/1.png)
 ![alt text](_Bank%20images/2.png)
@@ -13,8 +13,6 @@
 ![alt text](_Bank%20images/8.png)
 ![alt text](_Bank%20images/9.png)
 
-#Demo
-<video src="_Bank%20images/vid.mp4" controls width="600"></video>
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
